@@ -1,0 +1,4 @@
+<configs>
+  <set xpath="xui/ruleset[@name='default']/window_group[@name='compass']/window[@name='windowCompass']/@name">SDXwindowCompass</set>
+  <set xpath="xui/ruleset[@name='default']/window_group[@name='toolbelt']/window[@name='HUDLeftStatBars']/@name">SDXHUDLeftStatBars</set>
+</configs>
