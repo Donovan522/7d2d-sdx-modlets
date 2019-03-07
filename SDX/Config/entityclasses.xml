@@ -1,0 +1,86 @@
+<configs>
+  <!-- Zombies -->
+  <set xpath="/entity_classes/entity_class[starts-with(@name, 'zombie')]/property[@name='LootDropProb']/@value">0.3</set>
+
+  <set xpath="/entity_classes/entity_class[starts-with(@name, 'zombieTemplate')]/property[@name='ExperienceGain']/@value">900</set>
+
+  <set xpath="/entity_classes/entity_class[contains(@name, 'Feral')]/property[@name='ExperienceGain']/@value">1000</set>
+  <set xpath="/entity_classes/entity_class[contains(@name, 'Radiated')]/property[@name='ExperienceGain']/@value">1500</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieWightFeral']/property[@name='ExperienceGain']/@value">2000</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieWightRadiated']/property[@name='ExperienceGain']/@value">2400</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieFootballPlayer']/property[@name='ExperienceGain']/@value">1000</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieMoe']/property[@name='ExperienceGain']/@value">1500</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieMoeFeral']/property[@name='ExperienceGain']/@value">2000</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieMoeRadiated']/property[@name='ExperienceGain']/@value">2400</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieSnow']/property[@name='ExperienceGain']/@value">1500</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieSnowFeral']/property[@name='ExperienceGain']/@value">2000</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieFatHawaiian']/property[@name='ExperienceGain']/@value">1500</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieFatHawaiianFeral']/property[@name='ExperienceGain']/@value">2000</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieFatCop']/property[@name='ExperienceGain']/@value">1500</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieFatCopFeral']/property[@name='ExperienceGain']/@value">2000</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieFatCopRadiated']/property[@name='ExperienceGain']/@value">2400</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieSoldier']/property[@name='ExperienceGain']/@value">1500</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieSoldierFeral']/property[@name='ExperienceGain']/@value">2000</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieSoldierRadiated']/property[@name='ExperienceGain']/@value">2400</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieSkateboarder']/property[@name='ExperienceGain']/@value">900</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieBiker']/property[@name='ExperienceGain']/@value">1500</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieBikerFeral']/property[@name='ExperienceGain']/@value">2000</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieBikerRadiated']/property[@name='ExperienceGain']/@value">2400</set>
+
+  <!-- Animals -->
+  <set xpath="/entity_classes/entity_class[@name='animalStag']/drop[@event='Harvest' and @name='resourceLeather']/@count">16</set>
+  <set xpath="/entity_classes/entity_class[@name='animalStag']/drop[@event='Harvest' and @name='resourceAnimalFat']/@count">7</set>
+  <set xpath="/entity_classes/entity_class[@name='animalStag']/drop[@event='Harvest' and @name='resourceFemur' and @tag='butcherHarvest']/@count">8</set>
+  <set xpath="/entity_classes/entity_class[@name='animalStag']/drop[@event='Harvest' and @name='resourceFemur' and @tag='allToolsHarvest']/@count">4</set>
+
+  <set xpath="/entity_classes/entity_class[@name='animalDoe']/drop[@event='Harvest' and @name='foodRawMeat' and @tag='butcherHarvest']/@count">30</set>
+  <set xpath="/entity_classes/entity_class[@name='animalDoe']/drop[@event='Harvest' and @name='resourceLeather']/@count">16</set>
+  <set xpath="/entity_classes/entity_class[@name='animalDoe']/drop[@event='Harvest' and @name='resourceAnimalFat']/@count">7</set>
+  <set xpath="/entity_classes/entity_class[@name='animalDoe']/drop[@event='Harvest' and @name='resourceFemur' and @tag='butcherHarvest']/@count">8</set>
+  <set xpath="/entity_classes/entity_class[@name='animalDoe']/drop[@event='Harvest' and @name='resourceFemur' and @tag='allToolsHarvest']/@count">4</set>
+
+  <set xpath="/entity_classes/entity_class[@name='animalRabbit']/drop[@event='Harvest' and @name='resourceLeather']/@count">3</set>
+
+  <set xpath="/entity_classes/entity_class[@name='animalChicken']/drop[@event='Harvest' and @name='resourceFeather']/@count">46</set>
+
+  <set xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='ExperienceGain']/@value">900</set>
+
+  <set xpath="/entity_classes/entity_class[@name='animalBear']/property[@name='ExperienceGain']/@value">1500</set>
+  <set xpath="/entity_classes/entity_class[@name='animalBear']/drop[@event='Harvest' and @name='resourceLeather']/@count">35</set>
+  <set xpath="/entity_classes/entity_class[@name='animalBear']/drop[@event='Harvest' and @name='resourceAnimalFat']/@count">15</set>
+  <set xpath="/entity_classes/entity_class[@name='animalBear']/drop[@event='Harvest' and @name='resourceFemur' and @tag='butcherHarvest']/@count">15</set>
+  <set xpath="/entity_classes/entity_class[@name='animalBear']/drop[@event='Harvest' and @name='resourceFemur' and @tag='allToolsHarvest']/@count">8</set>
+
+  <set xpath="/entity_classes/entity_class[@name='animalZombieBear']/property[@name='ExperienceGain']/@value">1500</set>
+  <set xpath="/entity_classes/entity_class[@name='animalBear']/drop[@event='Harvest' and @name='resourceLeather']/@count">30</set>
+  <set xpath="/entity_classes/entity_class[@name='animalBear']/drop[@event='Harvest' and @name='resourceAnimalFat']/@count">8</set>
+  <set xpath="/entity_classes/entity_class[@name='animalBear']/drop[@event='Harvest' and @name='resourceFemur' and @tag='butcherHarvest']/@count">15</set>
+  <set xpath="/entity_classes/entity_class[@name='animalBear']/drop[@event='Harvest' and @name='resourceFemur' and @tag='allToolsHarvest']/@count">8</set>
+
+  <set xpath="/entity_classes/entity_class[@name='animalWolf']/drop[@event='Harvest' and @name='resourceFemur' and @tag='butcherHarvest']/@count">8</set>
+  <set xpath="/entity_classes/entity_class[@name='animalWolf']/drop[@event='Harvest' and @name='resourceFemur' and @tag='allToolsHarvest']/@count">4</set>
+
+  <set xpath="/entity_classes/entity_class[@name='animalDireWolf']/property[@name='ExperienceGain']/@value">1500</set>
+  <set xpath="/entity_classes/entity_class[@name='animalDireWolf']/drop[@event='Harvest' and @name='resourceLeather']/@count">22</set>
+  <set xpath="/entity_classes/entity_class[@name='animalDireWolf']/drop[@event='Harvest' and @name='resourceFemur' and @tag='butcherHarvest']/@count">8</set>
+  <set xpath="/entity_classes/entity_class[@name='animalDireWolf']/drop[@event='Harvest' and @name='resourceFemur' and @tag='allToolsHarvest']/@count">4</set>
+
+  <set xpath="/entity_classes/entity_class[@name='animalZombieDog']/drop[@event='Harvest' and @name='resourceLeather']/@count">8</set>
+  <set xpath="/entity_classes/entity_class[@name='animalZombieDog']/drop[@event='Harvest' and @name='resourceFemur' and @tag='butcherHarvest']/@count">6</set>
+  <set xpath="/entity_classes/entity_class[@name='animalZombieDog']/drop[@event='Harvest' and @name='resourceFemur' and @tag='allToolsHarvest']/@count">2</set>
+
+  <set xpath="/entity_classes/entity_class[@name='animalBoar']/drop[@event='Harvest' and @name='resourceLeather']/@count">12</set>
+  <set xpath="/entity_classes/entity_class[@name='animalBoar']/drop[@event='Harvest' and @name='resourceFemur' and @tag='butcherHarvest']/@count">8</set>
+  <set xpath="/entity_classes/entity_class[@name='animalBoar']/drop[@event='Harvest' and @name='resourceFemur' and @tag='allToolsHarvest']/@count">4</set>
+
+  <set xpath="/entity_classes/entity_class[@name='animalBossGrace']/property[@name='ExperienceGain']/@value">2000</set>
+</configs>
