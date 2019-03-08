@@ -61,10 +61,10 @@
   <set xpath="/entity_classes/entity_class[@name='animalBear']/drop[@event='Harvest' and @name='resourceFemur' and @tag='allToolsHarvest']/@count">8</set>
 
   <set xpath="/entity_classes/entity_class[@name='animalZombieBear']/property[@name='ExperienceGain']/@value">1500</set>
-  <set xpath="/entity_classes/entity_class[@name='animalBear']/drop[@event='Harvest' and @name='resourceLeather']/@count">30</set>
-  <set xpath="/entity_classes/entity_class[@name='animalBear']/drop[@event='Harvest' and @name='resourceAnimalFat']/@count">8</set>
-  <set xpath="/entity_classes/entity_class[@name='animalBear']/drop[@event='Harvest' and @name='resourceFemur' and @tag='butcherHarvest']/@count">15</set>
-  <set xpath="/entity_classes/entity_class[@name='animalBear']/drop[@event='Harvest' and @name='resourceFemur' and @tag='allToolsHarvest']/@count">8</set>
+  <set xpath="/entity_classes/entity_class[@name='animalZombieBear']/drop[@event='Harvest' and @name='resourceLeather']/@count">30</set>
+  <set xpath="/entity_classes/entity_class[@name='animalZombieBear']/drop[@event='Harvest' and @name='resourceAnimalFat']/@count">8</set>
+  <set xpath="/entity_classes/entity_class[@name='animalZombieBear']/drop[@event='Harvest' and @name='resourceFemur' and @tag='butcherHarvest']/@count">15</set>
+  <set xpath="/entity_classes/entity_class[@name='animalZombieBear']/drop[@event='Harvest' and @name='resourceFemur' and @tag='allToolsHarvest']/@count">8</set>
 
   <set xpath="/entity_classes/entity_class[@name='animalWolf']/drop[@event='Harvest' and @name='resourceFemur' and @tag='butcherHarvest']/@count">8</set>
   <set xpath="/entity_classes/entity_class[@name='animalWolf']/drop[@event='Harvest' and @name='resourceFemur' and @tag='allToolsHarvest']/@count">4</set>
