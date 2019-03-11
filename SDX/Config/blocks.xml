@@ -186,19 +186,24 @@
   <set xpath="/blocks/block[@name='trapSpikesIronDmg2']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceScrapIron</set>
   <set xpath="/blocks/block[@name='trapSpikesIronDmg1']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceScrapIron</set>
 
+  <!-- Wood logs should burn 4x longer than the same amount of wood -->
+  <set xpath="/blocks/block[@name='woodLogPillar100']/property[@name='FuelValue']/@value">2000</set>
+
   <!-- Picking up items -->
   <append xpath="/blocks/block[@name='flagstoneNoUpgradeMaster']">
     <property name="CanPickup" value="true" />
   </append>
+
   <append xpath="/blocks/block[@name='trapSpikesWoodMaster']">
     <property name="CanPickup" value="true" param1="trapSpikesWoodDmg0" />
   </append>
+
   <append xpath="/blocks/block[@name='trapSpikesScrapIronMaster']">
     <property name="CanPickup" value="true" param1="trapSpikesIronDmg0" />
   </append>
 
   <!-- Added Items -->
-  <append xpath="blocks/block">
+  <append xpath="/blocks">
     <block name="jailDoor">
       <property name="Class" value="DoorSecure" />
       <property name="Material" value="Miron" />
