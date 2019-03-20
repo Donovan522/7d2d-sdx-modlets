@@ -2,8 +2,8 @@
 <xml>
   <ModInfo>
     <Name value="Spikedaddy_XML" />
-    <Description value="Spikedaddy's XML -- modlet format" />
+    <Description value="Spikedaddy's XMLs -- in modlet form" />
     <Author value="Spikedaddy" />
-    <Version value="1.2" />
+    <Version value="1.3" />
   </ModInfo>
 </xml>
