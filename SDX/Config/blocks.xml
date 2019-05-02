@@ -1,4 +1,7 @@
 <configs>
+  <!-- Rotate Garage doors -->
+  <set xpath="/blocks/block[starts-with(@name, 'garageDoorMetal')]/property[@name='OnlySimpleRotations']/@value">false</set>
+
   <!-- Harvesting -->
   <set xpath="/blocks/block[@name='terrStone']/drop[@event='Harvest' and @name='resourceRockSmall']/@count">150</set>
   <set xpath="/blocks/block[@name='terrStone']/drop[@event='Harvest' and @name='resourceIronFragment']/@count">12</set>
