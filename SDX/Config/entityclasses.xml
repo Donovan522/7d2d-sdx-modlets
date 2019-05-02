@@ -83,4 +83,11 @@
   <set xpath="/entity_classes/entity_class[@name='animalBoar']/drop[@event='Harvest' and @name='resourceFemur' and @tag='allToolsHarvest']/@count">4</set>
 
   <set xpath="/entity_classes/entity_class[@name='animalBossGrace']/property[@name='ExperienceGain']/@value">2000</set>
+
+  <!-- Lootbags stick around for longer -->
+  <set xpath="/entity_classes/entity_class[@name='DroppedLootContainer']/property[@name='TimeStayAfterDeath']/@value">300</set>
+  <set xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular']/property[@name='TimeStayAfterDeath']/@value">1800</set>
+  <set xpath="/entity_classes/entity_class[@name='EntityLootContainerStrong']/property[@name='TimeStayAfterDeath']/@value">1800</set>
+  <set xpath="/entity_classes/entity_class[@name='EntityLootContainerBoss']/property[@name='TimeStayAfterDeath']/@value">1800</set>
+  <set xpath="/entity_classes/entity_class[@name='EntityLootContainerBandit']/property[@name='TimeStayAfterDeath']/@value">1800</set>
 </configs>
