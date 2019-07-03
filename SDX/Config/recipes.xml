@@ -42,6 +42,14 @@
     <recipe name="jailBars" count="1" craft_area="workbench">
       <ingredient name="resourceForgedIron" count="50" />
     </recipe>
+
+    <recipe name="woodLogSpike1" count="1">
+      <ingredient name="resourceWood" count="15" />
+    </recipe>
+
+    <recipe name="scrapIronLogSpike4" count="1">
+      <ingredient name="resourceScrapIron" count="40" />
+    </recipe>
   </append>
 
   <!-- Change medical bandage recipe -->
