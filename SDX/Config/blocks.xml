@@ -242,4 +242,8 @@
       </property>
     </block>
   </append>
+
+  <!-- Increate the HP of the blade traps -->
+  <set xpath="/blocks/block[@name='bladeTrap']/property[@name='MaxDamage']/@value">6000</set>
+
 </configs>
